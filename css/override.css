@@ -3,6 +3,13 @@ hr {
   margin-bottom: 20px;
 }
 
+.post-title {
+  font-family: 'Georgia', serif; /* Change to your preferred font */
+  font-weight: bold;             /* Optional */
+  font-size: 2.5rem;             /* Optional, adjust size */
+  color: #222222;                /* Optional, adjust color */
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;

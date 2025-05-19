@@ -18,17 +18,34 @@
 </head>
 <body>
 
-  <header class="site-header" style="display: flex; align-items: center; padding: 10px 20px;">
-    <a href="{{ '/' | relative_url }}" class="site-logo-link" style="margin-right: 15px;">
-      <img src="{{ '/assets/images/ur_logo.png' | /assets/images/ur_logo.png }}" alt="Site Logo" style="height: 50px; width: auto;" />
-    </a>
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}">Hannah Bae</a> |
-      <a href="{{ '/about.html' | relative_url }}">Research</a> |
-      <a href="{{ '/blog/' | relative_url }}">Blog</a>
-    </nav>
-  </header>
 
+
+  
+<header class="site-header" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px;">
+  
+  <!-- Left side: logo + title -->
+  <div style="display: flex; align-items: center;">
+    <a href="{{ '/' | relative_url }}" class="site-logo-link" style="margin-right: 15px; display: inline-block;">
+      <img src="{{ '/assets/images/ur_logo.png' | relative_url }}" alt="Site Logo" style="height: 50px; width: auto;" />
+    </a>
+    <a href="{{ '/' | relative_url }}" style="font-weight: bold; font-size: 1.5rem; color: inherit; text-decoration: none;">
+      Hannah Bae
+    </a>
+  </div>
+  
+  <!-- Right side: navigation -->
+  <nav class="site-nav">
+    <a href="{{ '/about.html' | relative_url }}" style="margin-right: 15px;">Research</a>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+  </nav>
+
+</header>
+
+
+
+
+
+  
   <main class="site-content" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
     {{ content }}
   </main>

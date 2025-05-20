@@ -3,6 +3,27 @@ hr {
   margin-bottom: 20px;
 }
 
+.site-title {
+  font-family: 'Georgia', serif;  /* or any font you prefer */
+  font-weight: bold;
+  font-size: 1.8rem;               /* adjust size as needed */
+  color: #222;
+}
+
+.site-nav a {
+  font-family: 'Arial', sans-serif;  /* example different font */
+  font-size: 1rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+
 .post-title {
   font-family: 'Georgia', serif; /* Change to your preferred font */
   font-weight: bold;             /* Optional */

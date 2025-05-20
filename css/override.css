@@ -18,6 +18,15 @@ hr {
   gap: 15px;           /* adds horizontal space between logo and title */
 }
 
+.site-header_right {
+  display: flex;
+  justify-content: flex-end;  /* Align links to the right */
+  gap: 30px;              
+  font-family: "Roboto", sans-serif;/* Space between links */
+}
+
+
+
 
 .site-nav {
   display: flex;

@@ -8,6 +8,8 @@ hr {
   font-size: 1.4rem;               /* adjust size as needed */
   color: #222;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .site-nav {
@@ -32,6 +34,7 @@ hr {
 .site-logo-link img {
   height: 50px; /* smaller size */
   width: auto;  /* keep aspect ratio */
+  margin-right: 15px; 
 }
 
 

@@ -22,6 +22,10 @@ hr {
   text-decoration: underline;
 }
 
+.site-logo-link img {
+  height: 30px; /* smaller size */
+  width: auto;  /* keep aspect ratio */
+}
 
 
 .post-title {

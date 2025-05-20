@@ -4,12 +4,13 @@ hr {
 }
 
 .site-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Signika Negative", sans-serif;;
   font-size: 1.4rem;               /* adjust size as needed */
   color: #222;
   text-decoration: none;
   display: flex;
   align-items: center;
+  font-weight: 600
 }
 
 .logo-title {
@@ -22,7 +23,8 @@ hr {
   display: flex;
   justify-content: flex-end;  /* Align links to the right */
   gap: 30px;              
-  font-family: "Roboto", sans-serif;/* Space between links */
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300
 }
 
 

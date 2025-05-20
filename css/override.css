@@ -100,4 +100,5 @@ h1 {
   font-weight: bold;                   /* change weight */
   color: #222222;                     /* change color */
   margin-bottom: 1rem;                 /* spacing */
+  text-align: center;
 }

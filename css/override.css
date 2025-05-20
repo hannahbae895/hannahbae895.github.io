@@ -25,7 +25,7 @@ hr {
 }
 
 .site-logo-link img {
-  height: 30px; /* smaller size */
+  height: 50px; /* smaller size */
   width: auto;  /* keep aspect ratio */
 }
 

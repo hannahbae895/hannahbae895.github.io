@@ -22,7 +22,8 @@ hr {
 .site-nav {
   display: flex;
   justify-content: flex-end;  /* Align links to the right */
-  gap: 30px;                  /* Space between links */
+  gap: 30px;              
+  font-family: "Roboto", sans-serif;/* Space between links */
 }
 
 .site-nav a {

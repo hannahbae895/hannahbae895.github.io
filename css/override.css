@@ -112,3 +112,14 @@ hr {
   margin-bottom: 1rem;                 /* spacing */
   text-align: center;
 }
+
+
+
+.h2 {
+  font-family: '"Roboto", sans-serif;
+  font-size: 1.5rem;                   /* change size */
+  /*font-weight: bold;                   /* change weight */
+  color: #222222;                     /* change color */
+  margin-bottom: 1rem;                 /* spacing */
+  text-align: center;
+}

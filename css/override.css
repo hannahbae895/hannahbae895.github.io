@@ -12,6 +12,13 @@ hr {
   align-items: center;
 }
 
+.logo-title {
+  display: flex;
+  align-items: center; /* vertically centers the items */
+  gap: 15px;           /* adds horizontal space between logo and title */
+}
+
+
 .site-nav {
   display: flex;
   justify-content: flex-end;  /* Align links to the right */

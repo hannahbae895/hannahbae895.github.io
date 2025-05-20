@@ -16,6 +16,7 @@ hr {
   color: #555;
   margin-right: 30px;
   text-decoration: none;
+  text-align: right;
 }
 
 .site-nav a:hover {

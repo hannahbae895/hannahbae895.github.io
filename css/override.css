@@ -3,7 +3,14 @@ hr {
   margin-bottom: 20px;
 }
 
-.site-title {
+
+.logo-title {
+  display: flex;
+  align-items: center; /* vertically centers the items */
+  gap: 15px;           /* adds horizontal space between logo and title */
+}
+
+.site-header-left{
   font-family: "Ancizar Sans", sans-serif;
   font-size: 1.4rem;               /* adjust size as needed */
   color: #222;
@@ -14,11 +21,6 @@ hr {
   letter-spacing: 2px;
 }
 
-.logo-title {
-  display: flex;
-  align-items: center; /* vertically centers the items */
-  gap: 15px;           /* adds horizontal space between logo and title */
-}
 
 .site-header-right {
   display: flex;

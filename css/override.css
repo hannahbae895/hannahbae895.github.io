@@ -12,10 +12,18 @@ hr {
 
 .site-header {
   display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.header-inner {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  font-family: sans-serif;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 40px;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -49,6 +57,7 @@ hr {
 .nav-menu span {
   color: #ccc;
 }
+
 
 
 .site-header-right {

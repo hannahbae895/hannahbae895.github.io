@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Hannah Bae
+layout: default
 ---
 
 <!DOCTYPE html>
@@ -11,52 +11,88 @@ title: Hannah Bae
   <title>{{ site.title }}</title>
   <link href="{{ '/css/override.css' | relative_url }}" rel="stylesheet" type="text/css" />
   <style>
-    .container {
+    .main-section {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 30px;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    .container img {
-      max-width: 230px;
-      height: auto;
-      border-radius: 8px;
-    }
-    .container .text {
-      max-width: 450px;
-      font-size: 1em;
-      line-height: 1.5;
+      flex-direction: row;
+      height: 100vh;
       font-family: "Roboto", sans-serif;
+    }
+
+    /* Left profile area */
+    .profile-section {
+      flex: 1;
+      padding: 60px 40px;
+      background-color: #ffffff;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .profile-section img {
+      max-width: 230px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .profile-section h1 {
+      font-size: 2em;
+      margin-bottom: 0.3em;
+    }
+
+    .profile-section p {
+      margin: 0.3em 0;
+    }
+
+    /* Right research area */
+    .research-section {
+      flex: 1;
+      padding: 60px 40px;
+      background-color: #a3b5ab;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .research-section h2 {
+      margin-bottom: 20px;
+    }
+
+    .research-section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .research-section li {
+      margin-bottom: 15px;
     }
   </style>
 </head>
 <body>
 
 <main class="main-section">
-  <!-- Left: Profile Info -->
+  <!-- Profile section (left) -->
   <section class="profile-section">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo" />
     <h1>Hannah Bae</h1>
-    <p>Ph.D. Student</p>
+    <p>Ph.D. Student, University of XYZ</p>
     <p><strong>Email:</strong> hannah@example.com</p>
-    <p><strong>Affiliation:</strong> University of XYZ</p>
-    <p><strong>Address:</strong> City, Country</p>
+    <p><strong>Location:</strong> City, Country</p>
     <p><a href="/CV.html">See full CV ↓</a></p>
   </section>
 
-  <!-- Right: Research Projects -->
+  <!-- Research section (right) -->
   <section class="research-section">
     <h2>Recent Research Projects</h2>
     <ul>
-      <li><strong>Project A</strong>: A short description of your recent work.</li>
-      <li><strong>Project B</strong>: Another highlight.</li>
-      <li><strong>Project C</strong>: Summary of a paper or ongoing research.</li>
+      <li><strong>Project A</strong>: Investigating economic behavior under uncertainty.</li>
+      <li><strong>Project B</strong>: Gender differences in decision-making frameworks.</li>
+      <li><strong>Project C</strong>: Long-term effects of early education policy reforms.</li>
     </ul>
   </section>
 </main>
 
-  
 </body>
 </html>

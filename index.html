@@ -1,98 +1,72 @@
----
-title: Hannah Bae
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ site.title }}</title>
-  <link href="{{ '/css/override.css' | relative_url }}" rel="stylesheet" type="text/css" />
+  <title>Hannah Bae</title>
+  <link href="/css/override.css" rel="stylesheet" />
   <style>
-    .main-section {
-      display: flex;
-      flex-direction: row;
-      height: 100vh;
-      font-family: "Roboto", sans-serif;
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
     }
 
-    /* Left profile area */
+    .main-section {
+      display: flex;
+      min-height: 100vh;
+    }
+
     .profile-section {
       flex: 1;
       padding: 60px 40px;
       background-color: #ffffff;
       color: #000;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
     }
 
-    .profile-section img {
-      max-width: 230px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-
-    .profile-section h1 {
-      font-size: 2em;
-      margin-bottom: 0.3em;
-    }
-
-    .profile-section p {
-      margin: 0.3em 0;
-    }
-
-    /* Right research area */
     .research-section {
       flex: 1;
       padding: 60px 40px;
-      background-color: #a3b5ab;
+      background-color: #d1d9d3;
       color: #000;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    }
+
+    .profile-section h1 {
+      margin-top: 0;
+      font-size: 2em;
+    }
+
+    .profile-section p, .research-section li {
+      line-height: 1.6;
     }
 
     .research-section h2 {
-      margin-bottom: 20px;
-    }
-
-    .research-section ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .research-section li {
-      margin-bottom: 15px;
+      margin-top: 0;
     }
   </style>
 </head>
 <body>
 
-<main class="main-section">
-  <!-- Profile section (left) -->
-  <section class="profile-section">
-    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo" />
-    <h1>Hannah Bae</h1>
-    <p>Ph.D. Student, University of XYZ</p>
-    <p><strong>Email:</strong> hannah@example.com</p>
-    <p><strong>Location:</strong> City, Country</p>
-    <p><a href="/CV.html">See full CV ↓</a></p>
-  </section>
+  <main class="main-section">
+    <!-- Left side: Profile -->
+    <section class="profile-section">
+      <h1>Hannah Bae</h1>
+      <p>Ph.D. Student</p>
+      <p><strong>Email:</strong> hannah@example.com</p>
+      <p><strong>Affiliation:</strong> University of XYZ</p>
+      <p><strong>Address:</strong> City, Country</p>
+      <p><a href="/CV.html">See full CV ↓</a></p>
+    </section>
 
-  <!-- Research section (right) -->
-  <section class="research-section">
-    <h2>Recent Research Projects</h2>
-    <ul>
-      <li><strong>Project A</strong>: Investigating economic behavior under uncertainty.</li>
-      <li><strong>Project B</strong>: Gender differences in decision-making frameworks.</li>
-      <li><strong>Project C</strong>: Long-term effects of early education policy reforms.</li>
-    </ul>
-  </section>
-</main>
+    <!-- Right side: Research -->
+    <section class="research-section">
+      <h2>Recent Research Projects</h2>
+      <ul>
+        <li><strong>Project A:</strong> A short description of your recent work.</li>
+        <li><strong>Project B:</strong> Another highlight.</li>
+        <li><strong>Project C:</strong> Summary of a paper or ongoing research.</li>
+      </ul>
+    </section>
+  </main>
 
 </body>
 </html>

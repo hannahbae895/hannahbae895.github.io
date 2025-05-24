@@ -155,9 +155,8 @@ hr {
 
 
 .h1 {
-  font-family: '"Roboto", sans-serif;
+  font-family: 'EudoxusEB', sans-serif;
   font-size: 2.5rem;                   /* change size */
-  font-weight: bold;                   /* change weight */
   color: #222222;                     /* change color */
   margin-bottom: 1rem;                 /* spacing */
   text-align: center;

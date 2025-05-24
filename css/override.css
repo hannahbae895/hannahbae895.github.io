@@ -10,7 +10,7 @@ hr {
   gap: 15px;           /* adds horizontal space between logo and title */
 }
 
-.site-header-left{
+.site-header{
   font-family: "Ancizar Sans", sans-serif;
   font-size: 1.4rem;               /* adjust size as needed */
   color: #222;

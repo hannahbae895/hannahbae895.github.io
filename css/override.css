@@ -67,7 +67,7 @@ hr {
 
 
 
-.site-header-right {
+.site-header {
   display: flex;
   justify-content: flex-end;  /* Align links to the right */
   gap: 30px;              

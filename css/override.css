@@ -3,6 +3,13 @@ hr {
   margin-bottom: 20px;
 }
 
+@font-face {
+  font-family: 'EudoxusSansEB';
+  src: url('{{ "/assets/fonts/EudoxusSans-ExtraBold.woff" | relative_url }}') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .logo-title {
   display: flex;
